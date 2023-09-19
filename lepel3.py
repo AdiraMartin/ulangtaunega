@@ -4,7 +4,7 @@ def main():
     st.title("Ayok bedoa")
     prayer1 = st.text_input("tulis doa lu disini")
     if prayer1:
-            st.image(r'C:\Users\user\STREAMLIT\mail doa.jpg')
+            st.image(r'mail doa.jpg')
             st.text('aamiin Ya Allah')
  
     
