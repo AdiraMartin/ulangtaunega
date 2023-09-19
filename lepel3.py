@@ -2,28 +2,27 @@ import streamlit as st
 
 def main():
     st.title("Ayok bedoa")
-    
-    prayer1 = st.text_input("Tulis doa pertama kamu di sini")
-    prayer2 = st.text_input("Tulis doa kedua kamu di sini")
-    prayer3 = st.text_input("Tulis doa ketiga kamu di sini")
+    prayer1 = st.text_input("tulis doa pertama lu disini, jangan lupa enter")
+    if prayer1:
+            st.caption('aamiin Ya Allah')
+            st.image(r'mail doa.jpg')
+        prayer2 = st.text_input("ayok tulis lagi doa ke 2 nanti di aminin, ENTER")
+        if prayer2:
+                st.caption('AAMIIN YA ALLAH')
+                st.image(r'spidermendoa.jpg')
+            
+            prayer3 = st.text_input("1 lagi deh yu deh, ENTEERRRRR, BIAR AAMIN PALING KERASS")
+            if prayer3:
+                    st.caption('AAAAAMIIIIIIIN YA ALLAH🤲🤲😭😭😭')
+                    st.image(r'gettyimages-1134792776-612x612.jpg')
 
-    if prayer1 and not prayer2 and not prayer3:
-        st.caption('Aamiin Ya Allah')
-        st.image('mail_doa.jpg')
-    elif not prayer1 and prayer2 and not prayer3:
-        st.caption('AAMIIN YA ALLAH')
-        st.image('spidermendoa.jpg')
-    elif not prayer1 and not prayer2 and prayer3:
-        st.caption('AAAAAMIIIIIIIN YA ALLAH🤲🤲😭😭😭')
-        st.image('gettyimages-1134792776-612x612.jpg')
-
-    video_path = 'Egaa.avi'
+    video_path = r'Egaa.avi'
 
     play_button = st.button("Play Video")
 
     if play_button:
         st.write("Playing video...")
-
+    
     st.video(video_path)
 
 if __name__ == "__main__":
