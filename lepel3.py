@@ -10,8 +10,8 @@ def main():
     
     prayer2 = st.text_input("ayok doa lagi tulis nanti di aminin")
     if prayer2:
-            st.image(r'C:\Users\user\STREAMLIT\mail doa.jpg')
-            st.text('aamiin Ya Allah')
+            st.image(r'spidermendoa.jpg')
+            st.text('AAMIIN YA ALLAH')
 
     # Replace 'path_to_your_video.avi' with the actual path of your video
     video_path = r'C:\Users\user\STREAMLIT\egaa.264'
