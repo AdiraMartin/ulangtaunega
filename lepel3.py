@@ -11,11 +11,11 @@ def main():
         st.caption('Aamiin Ya Allah')
         st.image('mail_doa.jpg')
 
-    if prayer2:
+    elif prayer2:
         st.caption('AAMIIN YA ALLAH')
         st.image('spidermendoa.jpg')
 
-    if prayer3:
+    elif prayer3:
         st.caption('AAAAAMIIIIIIIN YA ALLAH🤲🤲😭😭😭')
         st.image('gettyimages-1134792776-612x612.jpg')
 
