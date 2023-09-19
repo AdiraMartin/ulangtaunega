@@ -43,8 +43,11 @@ def main():
     elif 'bahasa' in jawaban_Q3.lower():
         st.info("yaaa kita maen bahasa bahasa luar negeri sama bahasa binatang wkwkkwkw")
         st.info(textnya.cikal)
+    elif 'gatau' in jawaban_Q3.lower():
+        st.info("gapapaa kalo gatau ato lupaa")
+        st.info(textnya.cikal)
     else:
-        st.info(f'wkwkwkkw gapapa kalo gatau {textnya.cikal}')
+        st.info(f'pokoknyaaa {textnya.cikal}')
     
 
 if __name__ == "__main__":
