@@ -40,7 +40,7 @@ def buat_lepel1():
         st.write('tar tambahin potonye')
         st.write('yelah masa kaga tau lu ah')
 
-    audio_file = open(r"WhatsApp Audio 2023-07-16 at 15.08.08.ogg", "rb").read()
+    audio_file = open(r"/WhatsApp Audio 2023-07-16 at 15.08.08.ogg", "rb").read()
 
     st.markdown(f'<p style="font-size: 14px;">{textnya.Q3}</p>', unsafe_allow_html=True)
     st.audio(audio_file, format="audio/mp3")
