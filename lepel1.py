@@ -49,6 +49,8 @@ def buat_lepel1():
 
 def main():
     jawaban_Q3 = st.text_input("**Q3** di voicenote diatas kita lagi ngobrolin apa?")
+    if 'cikal' in jawaban_Q3.lower():
+        st.info('bentar')
     
 
 if __name__ == "__main__":
