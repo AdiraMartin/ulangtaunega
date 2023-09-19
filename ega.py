@@ -9,7 +9,7 @@ import textnya
 st.set_page_config(page_title='EGA',  layout='wide', page_icon=':gift:')
 col1, col2 = st.columns((0.09, 1))
 
-file_ = open(r"C:\Users\user\STREAMLIT\Untitled design.gif", "rb")
+file_ = open(r"Untitled design.gif", "rb")
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
