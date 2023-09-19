@@ -1,19 +1,6 @@
 import streamlit as st
 import textnya
 
-def display_result(jawaban_Q3):
-    if not jawaban_Q3:
-        return
-
-    if 'thailand' in jawaban_Q3.lower() or 'tailan' in jawaban_Q3.lower():
-        st.info('iya lagi maen maen bahasa thailand sama bahasa binatang wkwkwkkw')
-        st.info(textnya.cikal)
-    elif 'bahasa' in jawaban_Q3.lower():
-        st.info("yaaa kita maen bahasa bahasa luar negeri sama bahasa binatang wkwkkwkw")
-        st.info(textnya.cikal)
-    else:
-        st.info(f'wkwkwkkw gapapa kalo gatau {textnya.cikal}')
-
 def buat_lepel1():
     st.header('Is this real ega?')
     st.markdown(textnya.lepel1)
@@ -49,6 +36,15 @@ def buat_lepel1():
 
 def main():
     jawaban_Q3 = st.text_input("**Q3** di voicenote diatas kita lagi ngobrolin apa?")
+    
+    if 'thailand' in jawaban_Q3.lower() or 'tailan' in jawaban_Q3.lower():
+        st.info('iya lagi maen maen bahasa thailand sama bahasa binatang wkwkwkkw')
+        st.info(textnya.cikal)
+    elif 'bahasa' in jawaban_Q3.lower():
+        st.info("yaaa kita maen bahasa bahasa luar negeri sama bahasa binatang wkwkkwkw")
+        st.info(textnya.cikal)
+    else:
+        st.info(f'wkwkwkkw gapapa kalo gatau {textnya.cikal}')
     
 
 if __name__ == "__main__":
