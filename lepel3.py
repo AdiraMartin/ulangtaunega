@@ -4,16 +4,20 @@ def main():
     st.title("Ayok bedoa")
     prayer1 = st.text_input("tulis doa lu disini")
     if prayer1:
+            st.caption('aamiin Ya Allah')
             st.image(r'mail doa.jpg')
-            st.text('aamiin Ya Allah')
- 
+            
     
     prayer2 = st.text_input("ayok doa lagi tulis nanti di aminin")
     if prayer2:
+            st.caption('AAMIIN YA ALLAH')
             st.image(r'spidermendoa.jpg')
-            st.text('AAMIIN YA ALLAH')
 
-    # Replace 'path_to_your_video.avi' with the actual path of your video
+    prayer3 = st.text_input("1 lagi deh yu deh")
+    if prayer2:
+            st.caption('AAAAAMIIIIIIIN YA ALLAH🤲🤲😭😭😭')
+            st.image(r'spidermendoa.jpg')
+
     video_path = r'C:\Users\user\STREAMLIT\egaa.264'
 
     play_button = st.button("Play Video")
