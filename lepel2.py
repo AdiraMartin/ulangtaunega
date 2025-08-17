@@ -31,3 +31,7 @@ if q1 and q2 and q3:
 
     **kamu dicintai, kamu cukup, kamu berharga.** 💖  
     """)
+
+
+if __name__ == "__main__":
+    main()
