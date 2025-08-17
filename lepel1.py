@@ -59,10 +59,12 @@ def main():
     jawaban_Q4 = st.text_input(textnya.Q4)
     if jawaban_Q4:  
         st.info(textnya.jelek)
+        st.image("image/WhatsApp Image 2025-08-17 at 16.57.40.jpeg")
 
 
 if __name__ == "__main__":
     main()
+
 
 
 
