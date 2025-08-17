@@ -36,15 +36,17 @@ def main():
     if prayer1 and prayer2 and prayer3 and play_button:
         st.balloons()
         st.write("---")
-        st.subheader("💌 Surat kecil buat Ega")
+        st.subheader("Anjaaaayyyyyy")
         st.write("""
         egaaa selamat ulang taun yaaa!!  
         gue gasabar banget ngeliat lu mencapai cita cita lu satu per satuu,  
         semoga tahun ini dimudahkan semuanyaaaa 🥳✨
+        aaamiiiin
         """)
 
 if __name__ == "__main__":
     main()
+
 
 
 
