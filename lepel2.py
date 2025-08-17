@@ -1,6 +1,6 @@
 import streamlit as st
 
-def main():
+def buatlepel2():
     st.write("Hei, aku tau kadang hidup bisa terasa berat. Yuk sebentar aja kita lihat hal-hal indah yang mungkin sering kita lupa 💖")
 
     # Pertanyaan 1
