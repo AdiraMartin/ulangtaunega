@@ -53,7 +53,7 @@ with tabs[0]:
     lepel1.main()
 with tabs[1]:
     st.header('The Games')
-    lepel2. buatlepel2()
+    lepel2.buatlepel2()
 with tabs[2]:
     lepel3.main()
     
@@ -61,6 +61,7 @@ with tabs[2]:
     
 
      
+
 
 
 
