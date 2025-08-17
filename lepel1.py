@@ -28,7 +28,7 @@ def buat_lepel1():
         st.write('yelah masa kaga tau lu ah')
 
     # Tombol "Nyerah" di bawah Q2
-    if st.button("😩 Nyerah"):
+    if st.button("😩 Nyerah Q2"):
         st.error("yaaahhhh 😭 parah bangetttt huhu.\n\nNamanya tuh **Helga Arsita Sulawesih** HEHEHEH")
 
     # --- Q3 Audio ---
@@ -49,9 +49,12 @@ def main():
     elif 'gatau' in jawaban_Q3.lower():
         st.info("gapapaa kalo gatau ato lupaa")
         st.info(textnya.cikal)
-    else:
-        st.info(f'pokoknyaaa {textnya.cikal}')
-    
+
+
+    # Tombol "Nyerah" di Q3
+    if st.button("🤷‍♂️ Nyerah Q3"):
+        st.warning(f"ini sebenernya antara tombol nyerah atau gue gatau sih cara bikinnya but anywaaaaayyy {textnya.cikal}")
+
 
 if __name__ == "__main__":
     main()
