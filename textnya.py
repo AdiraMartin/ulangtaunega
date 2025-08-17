@@ -27,9 +27,10 @@ pilihan_Q1 = [' ','sendok eskrim', 'mainin idup orang', 'gurita hape', 'main tak
 Q2 = '**Q2.** Apa nama belakang lu di kontak gua? atoo nama lu yang hape lama di kontak guaa dah'
 rubela = 'iye bener, karna lu pernah bilang seneg dipanggil bela, dari pada gue tulisnya rubela yekan'
 
-Q3 = '**Q3.** coba denger ni voicenote:'
+Q3 = 'coba denger ni voicenote:'
 cikal = 'jadi awalnya kita tuh lagi ngomongin haikal kan, trus gua komen di grup apaa gitu, trus karna gua garing, gua bilang ama lu, "untung gua martingarrink, mangkanya gua garing", trus akhirnya gua ngirim bahasa tailan ke lu endingnya lu ngomong bahasa tailan juga hahahahah'
 
 
-Q4 = '**Q4.**kebiasaan jelek gua ape?'
+Q4 = '**Q4.** kebiasaan jelek gua ape?'
 jelek = 'HAHAHAHHAHAH YAUDAH SI MAAP KALO ADA, tapi bagiku, km gaada jeleknya uhuuuuuuyyyyy'
+
