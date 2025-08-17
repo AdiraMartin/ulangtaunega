@@ -57,9 +57,12 @@ def main():
 
 # --- Q4 ---
     jawaban_Q4 = st.text_input(textnya.Q4)
+    if jawaban_Q4:  
+        st.info(textnya.jelek)
 
 
 if __name__ == "__main__":
     main()
+
 
 
