@@ -55,7 +55,11 @@ def main():
     if st.button("🤷‍♂️ Nyerah Q3"):
         st.warning(f"ini sebenernya antara tombol nyerah atau gue gatau sih cara bikinnya but anywaaaaayyy {textnya.cikal}")
 
+# --- Q4 ---
+    jawaban_Q4 = st.text_input(textnya.Q4)
+
 
 if __name__ == "__main__":
     main()
+
 
