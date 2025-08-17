@@ -29,7 +29,7 @@ def buat_lepel1():
 
     # Tombol "Nyerah" di bawah Q2
     if st.button("😩 Nyerah Q2"):
-        st.error("yaaahhhh 😭 parah bangetttt huhu.\n\nNamanya tuh **Helga Arsita Sulawesih🦄** HEHEHEH", kalo kontak satunya "Belarus" karena dulu lu suka dipanggil Bela)
+        st.error("yaaahhhh 😭 parah bangetttt huhu.\n\nNamanya tuh **Helga Arsita Sulawesih** HEHEHEH")
 
     # --- Q3 Audio ---
     audio_file = open(r"WhatsApp Audio 2023-07-16 at 15.08.08.ogg", "rb").read()
@@ -49,7 +49,8 @@ def main():
     elif 'gatau' in jawaban_Q3.lower():
         st.info("gapapaa kalo gatau ato lupaa")
         st.info(textnya.cikal)
-
+    else:
+        st.info(f'pokoknyaaa {textnya.cikal}')
 
     # Tombol "Nyerah" di Q3
     if st.button("🤷‍♂️ Nyerah Q3"):
@@ -58,4 +59,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
