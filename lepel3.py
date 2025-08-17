@@ -29,15 +29,17 @@ def main():
 
     # Video
     video_path = "https://youtu.be/xyMGELBwt0w"
+    play_button = st.button("Play Video")
 
     if play_button:
         st.write("Playing video...")
-
+        
     st.video(video_path)
 
 
 if __name__ == "__main__":
     main()
+
 
 
 
