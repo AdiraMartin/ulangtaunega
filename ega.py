@@ -5,6 +5,7 @@ from lepel1 import buat_lepel1
 import lepel1
 import lepel3 
 import textnya
+import lepel2
 
 st.set_page_config(page_title='EGA',  layout='wide', page_icon=':gift:')
 col1, col2 = st.columns((0.09, 1))
@@ -52,7 +53,7 @@ with tabs[0]:
     lepel1.main()
 with tabs[1]:
     st.header('The Games')
-    lepel2.main()
+    lepel2. buatlepel2()
 with tabs[2]:
     lepel3.main()
     
@@ -60,6 +61,7 @@ with tabs[2]:
     
 
      
+
 
 
 
