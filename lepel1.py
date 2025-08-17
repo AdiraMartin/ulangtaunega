@@ -16,22 +16,25 @@ def buat_lepel1():
     else:
         st.warning("bukan ih pilih lagi coba")
 
-    
+    # --- Q2 ---
     jawaban_Q2 = st.text_input(textnya.Q2)
 
     if 'sulawesih' in jawaban_Q2.lower():
         st.info("bener ini namanya, emotnya 🦄 wkwkkwkwkw")
     elif 'belarus' in jawaban_Q2.lower():
         st.info(textnya.rubela)
-    else:
+    elif jawaban_Q2:
         st.write('tar tambahin potonye')
         st.write('yelah masa kaga tau lu ah')
 
-    audio_file = open(r"WhatsApp Audio 2023-07-16 at 15.08.08.ogg", "rb").read()
+    # Tombol "Nyerah" di bawah Q2
+    if st.button("😩 Nyerah"):
+        st.error("yaaahhhh 😭 parah bangetttt huhu.\n\nNamanya tuh **Helga Arsita Sulawesih** HEHEHEH")
 
+    # --- Q3 Audio ---
+    audio_file = open(r"WhatsApp Audio 2023-07-16 at 15.08.08.ogg", "rb").read()
     st.markdown(f'<p style="font-size: 14px;">{textnya.Q3}</p>', unsafe_allow_html=True)
     st.audio(audio_file, format="audio/mp3")
-
 
 
 def main():
