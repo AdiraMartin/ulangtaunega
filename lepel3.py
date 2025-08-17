@@ -18,7 +18,7 @@ def main():
         st.caption('AAAAAMIIIIIIIN YA ALLAH🤲🤲😭😭😭')
         st.image(r'gettyimages-1134792776-612x612.jpg')
 
-    video_path = r'Egaa.avi'
+    video_path = r'https://youtu.be/xyMGELBwt0w'
 
     play_button = st.button("Play Video")
 
@@ -29,3 +29,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
