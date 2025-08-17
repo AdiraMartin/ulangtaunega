@@ -22,7 +22,7 @@ def buatlepel2():
     if q1 and q2 and q3:
         st.balloons()
         st.write("---")
-        st.subheader("💌 Surat kecil untukmu")
+        st.subheader("💌 Surat kecil untuk kamyu")
         st.write("""
         gaaa, mungkin akhir akhir ini terasa berat, tapi guaah percaya tahun ini akan bawa banyak hal indah buat luu.  
         lu tuh keren tau udah ngelewatin banyak hal, dan LU TETEP BERDIRI. Itu bukti kalau lu luar biasaballahuakbaaarrrr.  
