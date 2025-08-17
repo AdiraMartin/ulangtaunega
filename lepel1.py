@@ -49,8 +49,7 @@ def main():
     elif 'gatau' in jawaban_Q3.lower():
         st.info("gapapaa kalo gatau ato lupaa")
         st.info(textnya.cikal)
-    else:
-        st.info(f'pokoknyaaa {textnya.cikal}')
+
 
     # Tombol "Nyerah" di Q3
     if st.button("🤷‍♂️ Nyerah Q3"):
@@ -59,3 +58,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
