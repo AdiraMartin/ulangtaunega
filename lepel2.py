@@ -6,17 +6,17 @@ def buatlepel2():
     # Pertanyaan 1
     q1 = st.text_input("✨ Hal kecil apa yang bikin lu tersenyum akhir-akhir ini? cobak tulis yang beneerrrr")
     if q1:
-        st.success("Indah banget... bahkan hal kecil seperti itu bisa jadi alasan buat bersyukur 🥰")
+        st.success("OMGGGG stujuuuuuu, hal kecil kek gitu bisa jadi alasan buat bersyukur kann 🥰")
 
     # Pertanyaan 2
     q2 = st.text_input("💫 Kalau inget orang yang peduli sama lu, siapa yang pertama kali terlintas?")
     if q2:
-        st.success(f"daaammn {q2} pasti bersyukur banget punya kamu dalam hidupnya ✨")
+        st.success(f"daaammn {q2} pasti bersyukur juga kenal ama lu ✨")
 
     # Pertanyaan 3
     q3 = st.text_input("🌸 Hal apa yang bikin lu merasa kek damai ajaa gituu?")
     if q3:
-        st.success("Damai itu berharga banget... itu tanda hati kamu masih hangat 💖")
+        st.success("NICE, iya siih, damai kek berharga banget, se simple itu bisa bikin tenangg 💖")
 
     # Penutup
     if q1 and q2 and q3:
